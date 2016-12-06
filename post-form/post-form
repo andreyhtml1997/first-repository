@@ -1,0 +1,15 @@
+<div class="container-post-form">
+  <div id="empty">
+    <form class="post-form" action="form.php">
+      <h3>ОСТАВЬТЕ ЗАЯВКУ</h3>
+      <p>на покупку 3-х баллонов и получите 4-й в подарок</p>
+      <input required name="name" placeholder="Ваше имя" type="text" class="req">
+      <input required name="email" placeholder="Ваш номер телефона" type="text" class="req">
+      <button type="submit" onclick="changeVisibility();">ОТПРАВИТЬ</button>
+    </form>
+  </div>
+  <div class="checked" id="checked">
+    <img alt="OK" src="post-form/img/checked.png">
+    <h3>ВАША ЗАЯВКА ПРИНЯТА<br><span>Мы скоро свяжемся с Вами!</span></h3>
+  </div>
+</div>
